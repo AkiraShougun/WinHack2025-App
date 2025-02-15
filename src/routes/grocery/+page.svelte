@@ -2,6 +2,9 @@
     import Item from "../../components/item.svelte";
 </script>
 
+<link rel="stylesheet" href="/src/routes/css/main.css" />
+
+
 <h1>grocery</h1>
 
 <Item name="Apple" price="1.50" />  
