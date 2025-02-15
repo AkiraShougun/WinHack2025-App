@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="src/routes/main.css">
+
 <script>
     import { balance } from "./store";
 </script>
