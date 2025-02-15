@@ -1,8 +1,8 @@
 <script>
-    import Navigation from "../components/navigation.svelte";
+    import { balance } from "./store";
 </script>
 
 <main>
-    <Navigation />
+    <nav>Balance: {$balance}</nav>
     <slot />
 </main>
