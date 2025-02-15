@@ -1,8 +1,5 @@
 <script>
     import { balance } from "../store";
-    const increaseBalance = () => {
-      balance.update(n => n + 10);
-    };
 
     let message = "";
 
@@ -25,9 +22,6 @@
   </script>
 
 <h1>Wheel</h1>
-
-<h1>Balance: {$balance}</h1>
-<button onclick={increaseBalance}>Increase Balance</button>
 
 <h1>Spin the wheel</h1>
 <button onclick={Spin}>Spin</button>
