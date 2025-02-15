@@ -6,3 +6,4 @@
     <nav>Balance: {$balance}</nav>
     <slot />
 </main>
+
