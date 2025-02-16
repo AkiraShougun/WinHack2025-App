@@ -1,8 +1,7 @@
 <script>
     import { balance } from "./store";
+    import './main.css'
 </script>
-
-<link rel="stylesheet" href="/src/css/main.css" />
 
 <header>
     <div class="header-container">
@@ -19,6 +18,11 @@
         <div class="balance-display">
             <span>Balance: <strong>{$balance}</strong></span>
         </div>
+
+
+
+
+
     </div>
 </header>
 
