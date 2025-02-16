@@ -1,9 +1,17 @@
 <script lang="ts">
+	import { get } from "svelte/store";
     import { balance } from "../routes/store";
   
     let {name,price} = $props();
   const Buy = () => {
-    balance.update(n => n - price);
+    let CurrentBalance = get(balance);
+    if (CurrentBalance < price) {
+      return;
+    }
+    else{
+
+      balance.update(n => n - price);
+    }
   };
 
 </script>
