@@ -1,9 +1,7 @@
 <script>
     import Item from "../../components/item.svelte";
-    import './main.css';
 </script>
 
-<link rel="stylesheet" href="/src/routes/css/main.css" />
 
 <h1>Grocery List</h1>
 

@@ -13,9 +13,7 @@
 
 <style>
     :root {
-        --primary-color: #333;
         --font-size-xl: 2em;
-        --light-background: purple;
         --border-radius: 10px;
     }
 
