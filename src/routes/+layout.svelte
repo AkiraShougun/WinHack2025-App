@@ -2,7 +2,7 @@
     import { balance } from "./store";
 </script>
 
-<link rel="stylesheet" href="/src/routes/css/main.css" />
+<link rel="stylesheet" href="/src/css/main.css" />
 
 <header>
     <div class="header-container">
